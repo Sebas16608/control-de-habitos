@@ -32,7 +32,8 @@ User.init({
     password: {
         type: DataTypes.STRING(255),
         allowNull: false,
-    },},
+    },
+},
 {
     sequelize,
     tableName: "User",
